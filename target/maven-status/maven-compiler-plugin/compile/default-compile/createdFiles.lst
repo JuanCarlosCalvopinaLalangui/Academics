@@ -1,3 +1,5 @@
 pt\ipleiria\estg\dei\ei\dae\academics\HelloApplication.class
 pt\ipleiria\estg\dei\ei\dae\academics\ejbs\ConfigBean.class
+pt\ipleiria\estg\dei\ei\dae\academics\entities\Student.class
+pt\ipleiria\estg\dei\ei\dae\academics\ejbs\StudentBean.class
 pt\ipleiria\estg\dei\ei\dae\academics\HelloResource.class
