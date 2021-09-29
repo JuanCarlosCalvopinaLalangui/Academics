@@ -37,7 +37,8 @@ public class StudentService {
     }
 
     @GET // means: to call this endpoint, we need to use the HTTP GET method
-    @Path("/") // means: the relative url path is “/api/students/”
+    //@Path("/") // means: the relative url path is “/api/students/”
+    @Path("/all") // means: the relative url path is “/api/students/all”
     public List<StudentDTO> getAllStudentsWS() {
         return toDTOs(studentBean.getAllStudents());
     }
