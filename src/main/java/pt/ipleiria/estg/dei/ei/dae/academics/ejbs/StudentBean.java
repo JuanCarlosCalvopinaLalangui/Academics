@@ -6,6 +6,7 @@ import javax.ejb.Stateless;
 import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import java.util.List;
 
 @Stateless
 public class StudentBean {
@@ -15,5 +16,9 @@ public class StudentBean {
     public void create(Integer username, String password, String name, String email){
         Student student = new Student(username,password,name,email);
         entityManager.persist(student);
+    }
+
+    public List<Student> getAllStudents() {
+        return (List<Student>) entityManager.createNamedQuery("getAllStudents").getResultList();
     }
 }
