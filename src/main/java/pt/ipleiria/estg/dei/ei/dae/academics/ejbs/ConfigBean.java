@@ -18,6 +18,8 @@ public class ConfigBean {
             System.out.println("----------------Creating Students---------------");
 
             studentBean.create(123,"123","Juan","juan@mail.pt");
+            studentBean.create(456,"456","Carlos","carlos@mail.pt");
+            studentBean.create(789,"789","Alison","alison@mail.pt");
 
         }catch (Exception exception){
             System.out.println("Error: " +exception.getMessage());

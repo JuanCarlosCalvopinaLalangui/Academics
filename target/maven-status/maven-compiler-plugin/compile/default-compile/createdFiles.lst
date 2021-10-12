@@ -4,3 +4,4 @@ pt\ipleiria\estg\dei\ei\dae\academics\entities\Student.class
 pt\ipleiria\estg\dei\ei\dae\academics\AcademicsApplication.class
 pt\ipleiria\estg\dei\ei\dae\academics\dtos\StudentDTO.class
 pt\ipleiria\estg\dei\ei\dae\academics\ejbs\StudentBean.class
+pt\ipleiria\estg\dei\ei\dae\academics\providers\CorsFilter.class
